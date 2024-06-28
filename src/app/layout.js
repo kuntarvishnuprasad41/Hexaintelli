@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-// import Navbars from "@/components/Navbar/Page";
+import Navbars from "@/components/Navbar/Page";
 import { NextUIProvider } from "@nextui-org/react";
 import styles from "./RootLayout.module.css";
 
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${inter.className} ${styles.body}`}>
         <NextUIProvider>
-          {/* <Navbars /> */}
+          <Navbars />
           <main className={styles.main}>
             {children}
           </main>
