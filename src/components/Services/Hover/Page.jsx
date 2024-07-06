@@ -43,6 +43,7 @@ export const Hover = ({
             )}
           </AnimatePresence>
           <Card>
+          <CardIcon src={item.Icon} />
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
@@ -50,12 +51,10 @@ export const Hover = ({
       ))}
     </div>
   );
-};
+}
 
-export const Card = ({
-  className,
-  children,
-}) => {
+
+export const Card = ({ className, children }) => {
   return (
     <div
       className={cn(
@@ -70,21 +69,27 @@ export const Card = ({
   );
 };
 
-export const CardTitle = ({
-  className,
-  children,
-}) => {
+export const CardTitle = ({ className, children }) => {
   return (
-    <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("text-[32px] text-zinc-100 font-bold tracking-wide mt-4", className)}>
       {children}
     </h4>
   );
 };
 
-export const CardDescription = ({
-  className,
-  children,
-}) => {
+export const CardIcon = ({ className, src }) => {
+  return (
+    <div className={cn("bg-zinc-400 rounded-lg p-4 inline-block", className)}>
+    <img
+      src={src}
+      alt=""
+      
+    />
+    </div>
+  );
+};
+
+export const CardDescription = ({ className, children }) => {
   return (
     <p
       className={cn(

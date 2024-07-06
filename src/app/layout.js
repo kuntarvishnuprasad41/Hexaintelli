@@ -1,9 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbars from "@/components/Navbar/Page";
+import Navbars from "src/components/Navbar/Page";
 import { NextUIProvider } from "@nextui-org/react";
 import styles from "./RootLayout.module.css";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

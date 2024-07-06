@@ -5,16 +5,14 @@ import Link from "next/link";
 import { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
 
-import { cn } from "@/lib/utils";
-import {
-  NavigationMenu,
+import { cn } from "src/lib/utils";
+import {  NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
+  navigationMenuTriggerStyle, } from "../ui/navigation-menu";
 
 
 const components = [
