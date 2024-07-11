@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 
+
 export const Hover = ({
   items = [],
   className,
@@ -57,11 +58,12 @@ export const Hover = ({
 export const Card = ({ className, children }) => {
   return (
     <div
-      className={cn(
-        "rounded-2xl h-full w-full p-6 overflow-hidden bg-gray-900 border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
-        className
-      )}
-    >
+  className={cn(
+    "rounded-2xl h-full w-full p-6 overflow-hidden border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+    className
+  )}
+  style={{ backgroundColor: '#1f2229' }}
+>
       <div className="relative z-50">
         <div className="p-4">{children}</div>
       </div>
@@ -71,7 +73,7 @@ export const Card = ({ className, children }) => {
 
 export const CardTitle = ({ className, children }) => {
   return (
-    <h4 className={cn("text-[32px] text-zinc-100 font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("lg:text-[32px] md:text-[24px] sm:text-[28px] text-zinc-100 font-bold tracking-wide mt-4", className)}>
       {children}
     </h4>
   );

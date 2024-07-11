@@ -2,7 +2,6 @@
 // components/Hero.js
 import React, { useEffect, useRef } from 'react';
 import styles from './Hero.module.css';
-import { Button } from "@nextui-org/button";
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -41,9 +40,9 @@ const Hero = ({ videoSrc }) => {
         <div className={styles.content} ref={contentRef}>
           <h1 className={styles.title}>Custom Solutions for your Marketplace Business</h1>
           <p className={styles.subtitle}>We develop bespoke software and automations for e-commerce businesses, crafted with a blend of technical expertise and genuine care for your success</p>
-          <Button className={styles.button}>
+          <button className={styles.button}>
             Our Services
-          </Button> 
+          </button> 
         </div>
       </div>
     </div>

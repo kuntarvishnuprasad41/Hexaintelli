@@ -74,3 +74,111 @@
       @apply bg-background text-foreground;
     }
   }
+  /* global.css */
+
+
+
+/* Better focus styles from https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible */
+a:not(.card__image):focus {
+  outline: none;
+  background: lightgrey;
+}
+
+a:not(.card__image):focus:not(:focus-visible) {
+  background: transparent;
+}
+
+a:not(.card__image):focus-visible {
+  outline: 2px solid red;
+  background: transparent;
+}
+
+.unbutton {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.unbutton:focus {
+  outline: none;
+}
+
+.frame {
+  z-index: 100;
+  position: relative;
+  padding: 2vw;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 'title title' 'prev back' 'credits credits' 'sponsor sponsor';
+  grid-gap: 1rem;
+  pointer-events: none;
+}
+
+body #cdawrap {
+  justify-self: start;
+}
+
+.frame a {
+  pointer-events: auto;
+}
+
+.frame__title {
+  grid-area: title;
+  font-size: inherit;
+  margin: 0;
+  font-weight: inherit;
+}
+
+.frame__credits {
+  grid-area: credits;
+}
+
+.frame__back {
+  grid-area: back;
+  justify-self: start;
+}
+
+.frame__prev {
+  grid-area: prev;
+  justify-self: start;
+}
+
+.frame__demos {
+  grid-area: demos;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: start;
+  flex-wrap: wrap;
+}
+
+.frame__demos-item:not(:first-child) {
+  width: 2rem;
+  display: block;
+  flex: none;
+  border-radius: 10px;
+  aspect-ratio: 1;
+  border: 1px solid var(--color-link-hover);
+  display: grid;
+  place-items: center;
+}
+
+span.frame__demos-item:not(:first-child) {
+  border-color: #fff;
+}
+/* components/Hero.module.css */
+@font-face {
+  font-family: 'Criteriacf';
+  src: url('/public/CriteriaCF-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ailerons';
+  src: url('/public/Ailerons.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

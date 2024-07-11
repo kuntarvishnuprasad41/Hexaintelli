@@ -1,0 +1,41 @@
+.poster{
+    background-color: #1f2229;
+    text-align: center;
+    border-radius: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+    display: flex;
+    margin-bottom: 160px;
+}
+.details{
+    max-width: 672px;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Criteriacf', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.16667;
+    background: linear-gradient(to right, #f90 0.03%, #f24822 97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.button {
+    background-color: #f90;
+    color: black;
+    border-radius: 8px;
+    font-family: 'Criteriacf', sans-serif;
+    padding: 24px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: all .15s ease-out;
+    margin: 0; /* Remove auto margin */
+  }
+  .button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #f90;
+  }

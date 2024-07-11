@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Criteriacf';
+    src: url('../../../../public/CriteriaCF-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Ailerons';
+    src: url('../../../../public/Ailerons.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+.page{
+    background-color: black;
+    height: 100%;
+}
+.contaner{
+    color: white;
+    margin: 40px;
+    font-family: Criteriacf, sans-serif;
+    line-height: 1.16667;
+}
+.h1{
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 50px;
+}
+.team{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Criteriacf, sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 32px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.p1{
+    color: white;
+    font-size: 30px;
+}
+.p12{
+    color: white;
+    font-size: 20px;
+}
+.team{ 
+    display: flex;
+    flex-direction: row;
+}
