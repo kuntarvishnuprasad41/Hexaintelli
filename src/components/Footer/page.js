@@ -10,9 +10,9 @@ export const Footer = () => {
         <div className={styles.header}>
           <div className={styles.logo}>Hexaintelli</div>
           <div className={styles.social}>
-        <div className={styles.wrapper}>
+            <div className={styles.wrapper}>
             <GitHubLogoIcon className={styles.icon} />
-        </div>
+            </div>
         <div className={styles.wrapper}>
             <InstagramLogoIcon className={styles.icon} />
         </div>
