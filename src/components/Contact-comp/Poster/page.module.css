@@ -39,3 +39,21 @@
     background-color: rgb(255, 255, 255);
     color: #f90;
   }
+  .section{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:  36px;
+  }
+  @media screen and (max-width: 479px) {
+    .poster{
+        border-radius: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .title{
+        font-size: 32px;
+        margin-bottom: 80px;
+    }
+    
+}

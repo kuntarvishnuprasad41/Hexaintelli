@@ -20,6 +20,7 @@ import {
   NavbarMenu,
   NavbarMenuItem,
 } from "@nextui-org/react";
+import ToggleMenu from "./Toggle/page";
 
 const menuItems = [
   "Profile",
@@ -214,31 +215,11 @@ export default function Navbars() {
           <span className={styles.navbarText}>
             <button className={styles.button}>Work with us</button>
           </span>
-          <NavbarMenuToggle
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="sm:hidden"
-          />
-          <NavbarMenu>
-            {menuItems.map((item, index) => (
-              <NavbarMenuItem key={`${item}-${index}`}>
-                <Link
-                  className="w-full"
-                  color={
-                    index === 2
-                      ? "warning"
-                      : index === menuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                  }
-                  href="#"
-                  size="lg"
-                >
-                  {item}
-                </Link>
-              </NavbarMenuItem>
-            ))}
-          </NavbarMenu>
+          
         </div>
+        <div className="toggle-menu-container">
+            <ToggleMenu />
+          </div>
       </div>
     </Navbar>
   );

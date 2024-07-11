@@ -1,6 +1,9 @@
 .contact{
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding:  36px;
+
+}
+@media screen and (max-width: 479px)
+{
+    .contact{
+        padding: 0px;
+    }
 }

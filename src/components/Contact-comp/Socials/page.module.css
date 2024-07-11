@@ -27,3 +27,12 @@
     font-weight: 500;
     line-height: 2;
 }
+@media screen and (max-width: 479px) {
+    .socials{
+        grid-column-gap: 48px;
+        grid-row-gap: 48px;
+        flex-direction: column;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}

@@ -1,0 +1,43 @@
+/* components/ToggleMenu.module.css */
+.menuContainer {
+    position: relative;
+  }
+  
+  .menuButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menuButton svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    width: 100%;
+  }
+  
+  .menu a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  
