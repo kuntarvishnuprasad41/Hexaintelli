@@ -38,8 +38,8 @@ const Hero = ({ videoSrc }) => {
       <div className={styles.overlay}></div>
       <div className={styles.contentbox}>
         <div className={styles.content} ref={contentRef}>
-          <h1 className={styles.title}>Custom Solutions for your Marketplace Business</h1>
-          <p className={styles.subtitle}>We develop bespoke software and automations for e-commerce businesses, crafted with a blend of technical expertise and genuine care for your success</p>
+          <h1 className={styles.title}>Innovative Tech Solutions for Your Success</h1>
+          <p className={styles.subtitle}>Transform your ideas into reality with our expert-driven, creative tech solutions Build by CS Students.</p>
           <button className={styles.button}>
             Our Services
           </button> 
