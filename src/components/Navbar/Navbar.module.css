@@ -84,7 +84,14 @@
   .socialIcon a:hover img {
     filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
   }
-  
+  .toggle{
+    display: none;
+  }
+  @media screen and (max-width: 479px) {
+    .toggle{
+      display: block;
+    }
+  }
   .button {
     background-color: #f90;
     color: black;
@@ -186,7 +193,7 @@
   .navLink {
     margin: 0 15px;
   }
-  
+
   @media screen and (max-width: 991px) {
     .navLinks {
       display: none;
@@ -210,15 +217,6 @@
     }
   }
   /* styles/globals.css */
-@media screen and (max-width: 479px) {
-    .toggle-menu-container {
-      display: none;
-    }
-  }
-  
-  @media screen and (min-width: 480px) {
-    .toggle-menu-container {
-      display: block;
-    }
-  }
-  
+
+
+ 

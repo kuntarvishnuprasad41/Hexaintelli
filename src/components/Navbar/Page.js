@@ -217,7 +217,7 @@ export default function Navbars() {
           </span>
           
         </div>
-        <div className="toggle-menu-container">
+        <div className={styles.toggle}>
             <ToggleMenu />
           </div>
       </div>
