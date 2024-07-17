@@ -17,11 +17,11 @@ export const projects = [
     link: "/Web",
   },
   {
-    title: "CYBER SECURITY",
-    Icon: "/2.svg",
-    description:
-      "Protect your digital assets with our comprehensive cybersecurity solutions, safeguarding your data from evolving threats.",
-    link: "/Cyber",
+    "title": "MOBILE APP DEVELOPMENT",
+    "Icon": "/2.svg",
+    "description":
+      "Elevate your business with custom mobile applications that offer seamless user experiences and robust functionality across all devices.",
+    "link": "/Mobile"
   },
   {
     title: "CLOUD COMPUTING",

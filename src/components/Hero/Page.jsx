@@ -31,7 +31,13 @@ const Hero = ({ videoSrc }) => {
 
   return (
     <div className={styles.hero}>
-      <video autoPlay loop muted className={styles.video}>
+      <video 
+        autoPlay 
+        loop 
+        muted 
+        playsInline 
+        className={styles.video}
+      >
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
