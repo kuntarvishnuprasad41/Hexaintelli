@@ -20,16 +20,7 @@
     height: 24px;
   }
   
-  .menu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #444;
-    width: 100%;
-  }
-  
+
   .menu a {
     color: white;
     padding: 15px 20px;
@@ -39,4 +30,47 @@
   
   .menu a:hover {
     background-color: #555;
+  }
+
+  .menuContainer {
+    position: relative;
+  }
+  
+  .menuButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    opacity: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #fff;
+    padding-top: 64px;
+    padding: 128px 36px 96px;
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    right: 0%;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    backdrop-filter: blur(20px); /* Apply blur effect *//* Stylish border color when scrolled */
+    background-color: rgba(0, 0, 0, 0.7);
+    min-width: 100%;
+    overflow: scroll;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .menu a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
   }
