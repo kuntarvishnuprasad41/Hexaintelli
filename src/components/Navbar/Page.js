@@ -130,7 +130,8 @@ export default function Navbars() {
     <Navbar onMenuOpenChange={setIsMenuOpen} className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.container}>
         <div className={styles.navbarBrand}>
-          <h3 className={styles.dev}>HEXAINTELLI</h3>
+
+          <Link href='/' className={styles.dev}>HEXAINTELLI</Link>
           <div className={styles.navLinks}>
             <NavigationMenu>
               <NavigationMenuList>
@@ -213,7 +214,7 @@ export default function Navbars() {
           }`}
         >
           <span className={styles.navbarText}>
-            <button className={styles.button}>Work with us</button>
+            <Link href='/Contact  ' className={styles.button}>Work with us</Link>
           </span>
           
         </div>
