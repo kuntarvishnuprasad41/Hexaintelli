@@ -35,6 +35,10 @@
     flex-direction: column;
     align-items: flex-start;
     display: flex;
+    cursor: pointer;
+}
+.row2 a:hover{
+color:#f90;
 }
 .row1{
     width: 24%;
@@ -66,7 +70,9 @@
     height: 48px;
     transition: all .2s;
     display: flex;
+    cursor: pointer;
 }
+
 .icon{
     width: 16px;
     height: 16px;

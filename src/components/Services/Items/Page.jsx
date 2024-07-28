@@ -31,11 +31,11 @@ export const projects = [
     link: "/Cloud",
   },
   {
-    title: "DATA ANALYTICS",
+    title: "E-Commerce",
     Icon: "/4.svg",
     description:
       "Unlock actionable insights and drive informed decisions with our advanced data analytics solutions, tailored to extract value from your data.",
-    link: "/Data",
+    link: "/Ecommerce",
   },
   {
     title: "MACHINE LEARNING",

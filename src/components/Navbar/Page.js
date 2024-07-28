@@ -43,10 +43,10 @@ const components = [
       "Craft and deploy custom web solutions that drive engagement and growth.",
   },
   {
-    title: "Cyber Security",
-    href: "/Cyber",
+    title: "Mobile App Development",
+    href: "/Mobile",
     description:
-      "Protect your digital assets with advanced security measures and proactive threat detection.",
+      "Build intuitive and powerful mobile applications for both iOS and Android platforms.",
   },
   {
     title: "ERP Software",
@@ -55,10 +55,10 @@ const components = [
       "Streamline operations and enhance productivity with our integrated ERP solutions.",
   },
   {
-    title: "Data Analytics",
-    href: "/Data",
+    title: "E-commerce",
+    href: "/Ecommerce",
     description:
-      "Unlock actionable insights and make data-driven decisions to drive business growth.",
+      "Unlock actionable insights and drive informed decisions with our advanced data analytics solutions, tailored to extract value from your data.",
   },
   {
     title: "Cloud Computing",
@@ -135,7 +135,7 @@ export default function Navbars() {
           <div className={styles.navLinks}>
             <NavigationMenu>
               <NavigationMenuList>
-                <NavigationMenuItem>
+                {/* <NavigationMenuItem>
                   <NavigationMenuTrigger className="bg-transparent text-white">
                     Getting started
                   </NavigationMenuTrigger>
@@ -164,15 +164,9 @@ export default function Navbars() {
                       <ListItem href="/docs/installation" title="FOR">
                         Agencies, SAAS companies,
                       </ListItem>
-                      <ListItem
-                        href="/docs/primitives/typography"
-                        title="OUR TEAM"
-                      >
-                        A team of 8
-                      </ListItem>
                     </ul>
                   </NavigationMenuContent>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className="bg-transparent text-white">
                     Components

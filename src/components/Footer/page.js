@@ -30,10 +30,6 @@ export const Footer = () => {
               <br />
               Hexaintelli@gmail.com
               <br />
-              <br />
-              Varkey's Home Garden Avenue Road
-              <br />
-              Cross 3 Near Garden city University
             </p>
           </div>
           <div className={styles.row2}>
