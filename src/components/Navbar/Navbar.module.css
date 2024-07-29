@@ -103,7 +103,7 @@
     line-height: 1.5;
     text-decoration: none;
     transition: all .15s ease-out;
-    margin: 0; /* Remove auto margin */
+    margin: 0;
   }
   
   .button:hover {

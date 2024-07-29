@@ -7,12 +7,14 @@ import { Process } from 'src/components/Web-comp/Process/page';
 import { Project } from 'src/components/Web-comp/Projects/page';
 import { Work } from 'src/components/Work/page';
 import { Footer } from 'src/components/Footer/page';
+import { Gap } from 'src/components/Web-comp/Gap/page';
 
 
 const Web = () => {
   return (
     <div>
       <WebHero />
+      <Gap/>
       <Details/>
       <Approach/>
       <Project/>

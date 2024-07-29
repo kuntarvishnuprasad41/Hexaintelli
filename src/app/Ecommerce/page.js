@@ -5,6 +5,7 @@ import { EcomHero } from 'src/components/E-com/Hero/Page';
 import { Pathcom } from 'src/components/E-com/Path/page';
 import { Processcom } from 'src/components/E-com/Process/page';
 import { Footer } from 'src/components/Footer/page';
+import { Gap } from 'src/components/Web-comp/Gap/page';
 import { Work } from 'src/components/Work/page';
 
 
@@ -13,6 +14,7 @@ const Ecommerce = () => {
   return (
     <div>
       <EcomHero/>
+      <Gap/>
       <Detailscom/>
       <Approachcom/>
       <Pathcom/>

@@ -2,6 +2,7 @@
 import { cn } from "src/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import styles from './page.module.css'
 import { useState } from "react";
 
 
@@ -44,9 +45,16 @@ export const Hover = ({
             )}
           </AnimatePresence>
           <Card>
-          <CardIcon src={item.Icon} />
+          <div className={styles.details}>
+          <div className={styles.main}>
+            <CardIcon src={item.Icon} />
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
+            </div>
+            <div className={styles.sub}>
+            <Cardto>{item.to}</Cardto>
+            </div>
+            </div>
           </Card>
         </Link>
       ))}
@@ -94,12 +102,24 @@ export const CardIcon = ({ className, src }) => {
 export const CardDescription = ({ className, children }) => {
   return (
     <p
-      className={cn(
-        "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
-        className
-      )}
+      className={styles.description}
     >
       {children}
     </p>
+  );
+};
+export const Cardto = ({ children }) => {
+  return (
+    <div
+      className={styles.button}
+    >
+      <div className={styles.buttona}>
+      {children}
+      </div>
+      <div className={styles.arrow}>
+            <svg className={styles.svgIcon} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M5 12H19M19 12L15 16M19 12L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg></div>
+    </div>
   );
 };

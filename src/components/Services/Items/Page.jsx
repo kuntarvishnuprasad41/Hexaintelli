@@ -15,13 +15,15 @@ export const projects = [
     description:
       "Transform your digital presence with tailored web solutions that marry cutting-edge technology with user-centric design.",
     link: "/Web",
+    to: 'see more'
   },
   {
     "title": "MOBILE APP DEVELOPMENT",
     "Icon": "/2.svg",
     "description":
       "Elevate your business with custom mobile applications that offer seamless user experiences and robust functionality across all devices.",
-    "link": "/Mobile"
+    "link": "/Mobile",
+    to: 'see more'
   },
   {
     title: "CLOUD COMPUTING",
@@ -29,6 +31,7 @@ export const projects = [
     description:
       "Empower your business with scalable cloud solutions tailored to streamline operations and enhance flexibility.",
     link: "/Cloud",
+    to: 'see more'
   },
   {
     title: "E-Commerce",
@@ -36,6 +39,7 @@ export const projects = [
     description:
       "Unlock actionable insights and drive informed decisions with our advanced data analytics solutions, tailored to extract value from your data.",
     link: "/Ecommerce",
+    to: 'see more'
   },
   {
     title: "MACHINE LEARNING",
@@ -43,6 +47,7 @@ export const projects = [
     description:
       "Leverage the potential of machine learning to innovate and automate processes, driving predictive insights and enhancing decision-making.",
     link: "/Machine",
+    to: 'see more'
   },
   {
     title: "ERP SOFTWARE",
@@ -50,6 +55,7 @@ export const projects = [
     description:
       "Optimize your business operations with our comprehensive ERP software, integrating core processes to streamline efficiency and drive growth.",
     link: "/ERP",
+    to: 'see more'
   },
 ];
 
