@@ -208,7 +208,7 @@ export default function Navbars() {
           }`}
         >
           <span className={styles.navbarText}>
-            <Link href='/Contact  ' className={styles.button}>Work with us</Link>
+            <Link href='/contact  ' className={styles.button}>Work with us</Link>
           </span>
           
         </div>

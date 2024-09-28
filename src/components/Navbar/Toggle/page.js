@@ -30,12 +30,12 @@ const ToggleMenu = () => {
         {isOpen ? <Cross1Icon /> : <HamburgerMenuIcon />}
       </button>
       <nav ref={menuRef} className={`${styles.menu}`}>
-        <a href="/Web">Web Development</a>
-        <a href="/Cyber">Cyber Security</a>
-        <a href="/Machine">Machine Learning</a>
-        <a href="/Cloud">Cloud Computing</a>
-        <a href="/Data">Data Science</a>
-        <a href="/ERP">ERP</a>
+        <a href="/web">Web Development</a>
+        <a href="/cyber">Cyber Security</a>
+        <a href="/machine">Machine Learning</a>
+        <a href="/cloud">Cloud Computing</a>
+        <a href="/data">Data Science</a>
+        <a href="/erp">ERP</a>
       </nav>
     </div>
   );
