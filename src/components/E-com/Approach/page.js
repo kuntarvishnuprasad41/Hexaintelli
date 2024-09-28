@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './page.module.css';
+import { IMAGES } from '../../../constants/images'
+import Image from 'next/image';
 export const Approachcom = () => {
   return (
     <div className={styles.Container}>
@@ -8,7 +10,7 @@ export const Approachcom = () => {
         <div className={styles.aproach_box}>
                 <div className={styles.icon_box}>
                     <div className={styles.wrapper}>
-                    <img className={styles.icon} src="/ap1.svg"/>
+                          <Image className={styles.icon} src={IMAGES.ap1} alt="build icon" width={100} height={100} />
                     </div>
                 </div>
                 <div className={styles.head4}>
@@ -21,7 +23,7 @@ export const Approachcom = () => {
             <div className={styles.aproach_box}>
                 <div className={styles.icon_box}>
                     <div className={styles.wrapper}>
-                        <img className={styles.icon} src="/ap2.svg"/>
+                          <Image className={styles.icon} src={IMAGES.ap2} alt="build icon" width={100} height={100} />
                     </div>
                 </div>
                 <div className={styles.head4}>
@@ -34,7 +36,7 @@ export const Approachcom = () => {
             <div className={styles.aproach_box}>
                 <div className={styles.icon_box}>
                     <div className={styles.wrapper}>
-                    <img className={styles.icon} src="/ap3.svg"/>
+                          <Image className={styles.icon} src={IMAGES.ap3} alt="build icon" width={100} height={100} />
                     </div>
                 </div>
                 <div className={styles.head4}>

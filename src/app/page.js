@@ -4,7 +4,7 @@ import { Services } from "../components/Services/Page";
 import { Work } from "src/components/Work/page";
 
 export default function Home() {
-  const videoSrc = '/background.mp4';
+  const videoSrc = '/videos/background.mp4';
 
   return (
     <div >

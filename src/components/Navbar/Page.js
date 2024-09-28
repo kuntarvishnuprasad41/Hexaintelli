@@ -38,37 +38,37 @@ const menuItems = [
 const components = [
   {
     title: "Web Development",
-    href: "/Web",
+    href: "/web",
     description:
       "Craft and deploy custom web solutions that drive engagement and growth.",
   },
   {
     title: "Mobile App Development",
-    href: "/Mobile",
+    href: "/mobile",
     description:
       "Build intuitive and powerful mobile applications for both iOS and Android platforms.",
   },
   {
     title: "ERP Software",
-    href: "/ERP",
+    href: "/erp",
     description:
       "Streamline operations and enhance productivity with our integrated ERP solutions.",
   },
   {
     title: "E-commerce",
-    href: "/Ecommerce",
+    href: "/ecommerce",
     description:
       "Unlock actionable insights and drive informed decisions with our advanced data analytics solutions, tailored to extract value from your data.",
   },
   {
     title: "Cloud Computing",
-    href: "/Cloud",
+    href: "/cloud",
     description:
       "Leverage scalable cloud solutions to optimize performance and accelerate innovation.",
   },
   {
     title: "Machine Learning",
-    href: "/Machine",
+    href: "/machine",
     description:
       "Harness the power of AI to drive predictive analytics and automate processes.",
   },
@@ -208,7 +208,7 @@ export default function Navbars() {
           }`}
         >
           <span className={styles.navbarText}>
-            <Link href='/Contact  ' className={styles.button}>Work with us</Link>
+            <Link href='/contact  ' className={styles.button}>Work with us</Link>
           </span>
           
         </div>
