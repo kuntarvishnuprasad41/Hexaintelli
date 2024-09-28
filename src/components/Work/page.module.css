@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Criteriacf';
-    src: url('../../../public/CriteriaCF-Regular.otf') format('truetype');
+    src: url('../../../public/fonts/CriteriaCF-Regular.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'Ailerons';
-    src: url('../../../public/Ailerons.otf') format('truetype');
+    src: url('../../../public/fonts/Ailerons.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
