@@ -36,7 +36,7 @@ export const Approachcom = () => {
             <div className={styles.aproach_box}>
                 <div className={styles.icon_box}>
                     <div className={styles.wrapper}>
-                          <Image className={styles.icon} src={IMAGES.ap1} alt="build icon" width={100} height={100} />
+                          <Image className={styles.icon} src={IMAGES.ap3} alt="build icon" width={100} height={100} />
                     </div>
                 </div>
                 <div className={styles.head4}>
