@@ -12,7 +12,7 @@
   }
   
 .hero {
-    background-image: url('/work.webp'); /* Path relative to the public folder */
+    background-image: url('/images/work.webp'); /* Path relative to the public folder */
     background-size: cover;
     background-position: center;
     height: 100vh;
